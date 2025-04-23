@@ -220,6 +220,7 @@ class Dia:
         use_torch_compile: bool = False,
         cfg_filter_top_k: int = 35,
         audio_prompt_path: str | None = None,
+        speed_factor: float | None = None
     ) -> np.ndarray:
         """
         Generates audio from a text prompt (and optional audio prompt) using the Nari model.
